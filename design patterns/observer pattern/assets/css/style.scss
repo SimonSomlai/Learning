@@ -1,0 +1,57 @@
+@import "mixins";
+
+// Color Palette
+$white: #ffffff;
+$text: #646E76;
+$primary: #39ADD1;
+$secondary: #5FCF80;
+$link: #04327b;
+/*---------------------*/
+/* STRUCTURE & GENERAL */
+/*---------------------*/
+html {
+    position: relative;
+    min-height: 100%;}
+	body{
+		font-family: "Roboto", sans-serif;
+		color: $text;}
+body a{
+transition: all 0.2s ease-in-out;
+			text-decoration: none;
+			color: $link;
+&:hover{
+    text-decoration: none;
+    color: $link;
+  }}
+
+/*Clearfix*/
+.cf:after,
+.cf:before {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.col-center {
+  margin: 0 auto;
+  float: none;
+}
+/*---------------------*/
+/*    HEADER & NAV     */
+/*---------------------*/
+/*/ ------------------------------ HEADER ------------------------------------/*/
+
+/*---------------------*/
+/* 		SIDE           */
+/*---------------------*/
+
+/*---------------------*/
+/* 		CONTENT  	   */
+/*---------------------*/
+
+/*---------------------*/
+/* 		FOOTER 		   */
+/*---------------------*/

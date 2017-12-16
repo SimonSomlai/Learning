@@ -1,0 +1,56 @@
+/*---------------------*/
+/* STRUCTURE & GENERAL */
+/*---------------------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #646E76;
+}
+
+body a {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #04327b;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: #04327b;
+}
+
+/*Clearfix*/
+.cf:after,
+.cf:before {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.col-center {
+  margin: 0 auto;
+  float: none;
+}
+
+/*---------------------*/
+/*    HEADER & NAV     */
+/*---------------------*/
+/*/ ------------------------------ HEADER ------------------------------------/*/
+/*---------------------*/
+/* 		SIDE           */
+/*---------------------*/
+/*---------------------*/
+/* 		CONTENT  	   */
+/*---------------------*/
+/*---------------------*/
+/* 		FOOTER 		   */
+/*---------------------*/
+ 
+
+ /*# sourceMappingURL= style.css.map */

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Units</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container" style="padding-top: 30px;">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">CSS Units</h1>
+        <p class="lead">Understanding the difference between <span style='font-weight: 800 !important;'>em, rem, px, vh & vw & %.</span></p>
+      </div>
+    </div>
+    <div class="panel panel-info ">
+      <div class="panel-heading">
+        <strong>EM/REM</strong>
+      </div>
+      <div class="panel-body">Relative to (a) parent element. Translated into px;
+        <ul>
+          <li>REM (relative to the HTML element, doesn't inherit)</li>
+          <li>EM (relative to the nearest parent element, inherits)</li>
+        </ul>
+      </div>
+      <div class="panel-footer">
+        <p class="bg-info rem">
+          REM: I'm text relative to the HTML DOCUMENT!
+        </p>
+        <p class="bg-info em">
+          EM: I'm text relative to my inherited value!
+        </p>
+      </div>
+    </div>
+    <div class="panel panel-success pixel">
+      <div class="panel-heading">
+        <strong>PX</strong>
+      </div>
+      <div class="panel-body">Standard pixel value</div>
+      <div class="panel-footer">
+        <p class="bg-success px">
+          I'm just kick-ass clear pixel values!
+        </p>
+      </div>
+    </div>
+    <div class="panel panel-warning vmvh">
+      <div class="panel-heading">
+        <strong>VH/VW</strong>
+      </div>
+      <div class="panel-body">Defined according to the viewport height and viewport width</div>
+      <div class="panel-footer">
+        <p class="bg-warning vh">
+          VH: I'm text relative to the VH!
+        </p>
+        <p class="bg-warning vw">
+          VW: I'm text relative to the VW!
+        </p>
+      </div>
+    </div>
+    <div class="panel panel-danger per">
+      <div class="panel-heading">
+        <strong>Percentages</strong>
+      </div>
+      <div class="panel-body">Defined according to the width of it's parent element</div>
+      <div class="panel-footer">
+        <p class="bg-danger bg-danger percent">
+          My box-model is relative to the width of my container but not my font-size!
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
